@@ -1,0 +1,26 @@
+what is a socket?
+
+A socket is one endpoint of a two way communication link between two programs running on the network. The socket mechanism provides a means of inter-process communication (ipc) by establishing named contact points between which the communication take place. 
+
+a software endpoint that enables communication between two programs, typically a client and a server, over a network. It acts as a doorway or channel through which data can be sent and received. 
+
+
+difference between port and a socket?
+what is port now?
+
+A port in networking is a software-defined number associated to a network protocol that receives or transmits communication for a specific service
+
+
+A socket consists of three things:
+
+* An IP address
+* A transport protocol
+* A port number
+A port is a number between 1 and 65535 inclusive that signifies a logical gate in a device. Every connection between a client and server requires a unique socket.
+
+For example:
+
+1030 is a port.
+(10.1.1.2 , TCP , port 1030) is a socket.
+
+
